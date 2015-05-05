@@ -3,6 +3,7 @@
 	-moz-box-sizing: border_box;
 	-ms-box-sizing: border_box;
 	box-sizing: border_box;
+	background-color: #C6D5B0;
 }
 
 .row {
@@ -13,8 +14,27 @@
 	text-align: right;
 }
 
+#Profile_pic {
+	margin-top: 10px;
+	margin-left: -5px;
+	width: 100px;
+	height: 100px;
+}
+
 #big_pic {
 	margin-top: 15px;
+	padding-left: 17px;
+	width: 1150px;
+	height: 350px;
+}
+
+#project_pics img {
+	width: 350px;
+	height: 350px;
+}
+
+#proj_pic1 {
+	padding-left: 17px;
 }
 
 #proj_pic2 {
@@ -22,9 +42,27 @@
 	margin-right: 50px;
 }
 
+h1 {
+	font-family: 'Lobster', cursive;
+	color: #DFFF6D;
+}
+
+h2, h3 {
+	color: #235D23;
+	font-family: 'Cabin Sketch';
+}
+
+h3 {
+	margin-top: 40px;
+	padding-left: 17px;
+	margin-bottom: 10px;
+}
+
 h4 {
+	font-family: 'Cabin Sketch';
 	text-align: center;
 	margin-top: 20px;
+	color: #32382C;
 }
 
 h5 {
@@ -32,3 +70,4 @@ h5 {
 	margin-top: 10px;
 	margin-bottom: 20px;
 }
+
