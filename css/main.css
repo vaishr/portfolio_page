@@ -1,0 +1,34 @@
+* {
+	-webkit-box-sizing: border_box;
+	-moz-box-sizing: border_box;
+	-ms-box-sizing: border_box;
+	box-sizing: border_box;
+}
+
+.row {
+	display: flex;
+}
+
+#name_title {
+	text-align: right;
+}
+
+#big_pic {
+	margin-top: 15px;
+}
+
+#proj_pic2 {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+h4 {
+	text-align: center;
+	margin-top: 20px;
+}
+
+h5 {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
