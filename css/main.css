@@ -1,18 +1,9 @@
-* {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	box-sizing: border-box;
-	background-color: #C6D5B0;
+body {
+	background-color: #c6d5b0;
 }
 
 .row {
 	display: flex;
-}
-
-#name_title {
-	text-align: right;
-	margin-right: 40px;
 }
 
 #Profile_pic {
@@ -21,51 +12,62 @@
 	height: 100px;
 }
 
-#big_pic {
+#name_title {
+	text-align: right;
+	margin-right: 40px;
+}
+
+hr {
+	height: 2px;
+	background-color: #32382c;
+	color: #32382c;
+	margin: 15px 25px 15px 25px;
+	border: none;
+}
+
+.big_pic {
 	margin-top: 15px;
 	padding-left: 25px;
 	width: 100%;
 	height: 350px;
+	overflow: hidden;
 }
 
-#featured_work {
-	margin-left: 1px;
+.sect_title {
+	margin: 40px 0 10px 0.5px;
+	padding-left: 17px;
+	color: #235d23;
+	font-family: 'Cabin Sketch';
 }
 
-#project_pics img {
+.proj_pics img {
 	width: 330px;
 	height: 330px;
 }
 
-#proj_pic1 {
+.left_item img {
 	margin-left: 27px;
 }
 
-#proj_pic2 {
+.middle_item img {
 	margin-left: 15px;
 }
 
 h1 {
 	font-family: 'Lobster', cursive;
-	color: #DFFF6D;
+	color: #dfff6d;
 }
 
-h2,
-h3 {
-	color: #235D23;
+h2 {
+	color: #235d23;
 	font-family: 'Cabin Sketch';
-}
-
-h3 {
-	margin: 40px 0 10px 0;
-	padding-left: 17px;
 }
 
 h4 {
 	font-family: 'Cabin Sketch';
 	text-align: center;
 	margin-top: 20px;
-	color: #32382C;
+	color: #32382c;
 }
 
 h5 {
