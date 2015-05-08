@@ -29,20 +29,18 @@ hr {
 	margin-top: 15px;
 	padding-left: 25px;
 	width: 100%;
-	height: 350px;
+	max-height: 350px;
 	overflow: hidden;
 }
 
 .sect_title {
-	margin: 40px 0 10px 0.5px;
+	margin: 10px 0 10px 0.5px;
 	padding-left: 17px;
-	color: #235d23;
-	font-family: 'Cabin Sketch';
 }
 
 .proj_pics img {
-	width: 330px;
-	height: 330px;
+	width: 350px;
+	height: 100%;
 }
 
 .left_item img {
@@ -55,23 +53,36 @@ hr {
 
 h1 {
 	font-family: 'Lobster', cursive;
+	font-size: 3em;
 	color: #dfff6d;
+	word-wrap: break-word;
 }
 
 h2 {
-	color: #235d23;
 	font-family: 'Cabin Sketch';
+	font-size: 2em;
+	color: #235d23;
+}
+
+h3 {
+	font-family: 'Cabin Sketch';
+	font-size: 1.5em;
+	color: #235d23;
 }
 
 h4 {
 	font-family: 'Cabin Sketch';
+	font-size: 1em;
+	color: #32382c;
 	text-align: center;
 	margin-top: 20px;
-	color: #32382c;
+	word-wrap: break-word;
 }
 
 h5 {
+	font-size: 0.75em;
 	text-align: center;
 	margin: 10px 0 35px 0;
+	word-wrap: break-word;
 }
 
