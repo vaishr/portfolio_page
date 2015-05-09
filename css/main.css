@@ -9,7 +9,7 @@ body {
 #Profile_pic {
 	margin: 10px 0 0 20px;
 	width: 100px;
-	height: 100px;
+	height: 100%;
 }
 
 #name_title {
@@ -26,8 +26,7 @@ hr {
 }
 
 .big_pic {
-	margin-top: 15px;
-	padding-left: 25px;
+	margin: 15px 0 0 5px;
 	width: 100%;
 	max-height: 350px;
 	overflow: hidden;
@@ -52,27 +51,23 @@ hr {
 }
 
 h1 {
-	font-family: 'Lobster', cursive;
-	font-size: 3em;
+	font: 3em cursive 'Lobster';
 	color: #dfff6d;
 	word-wrap: break-word;
 }
 
 h2 {
-	font-family: 'Cabin Sketch';
-	font-size: 2em;
+	font: 2em 'Cabin Sketch';
 	color: #235d23;
 }
 
 h3 {
-	font-family: 'Cabin Sketch';
-	font-size: 1.5em;
+	font: 1.5em 'Cabin Sketch';
 	color: #235d23;
 }
 
 h4 {
-	font-family: 'Cabin Sketch';
-	font-size: 1em;
+	font: 1em 'Cabin Sketch';
 	color: #32382c;
 	text-align: center;
 	margin-top: 20px;
